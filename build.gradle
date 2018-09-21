@@ -30,8 +30,8 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: "${url}") {  
-          authentication(userName: ${userName}, password: ${password})
+        url: "http://localhost:8081/repository/hello-world/") {  
+          authentication(userName: "admin", password:"admin123")
       }
                         pom.version = "0.1.0"
              pom.artifactId = "gs-gradle"
