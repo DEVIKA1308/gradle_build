@@ -36,7 +36,7 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: ${url}) {  
+        url: $(url)) {  
           authentication(userName: $(userName) , password: $(password) )
       }
                         pom.version = "0.1.0"
