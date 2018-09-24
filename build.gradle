@@ -36,7 +36,7 @@ uploadArchives {
   repositories {
     mavenDeployer {
       repository(
-        url: "${url}") {  
+        url: "http://localhost:8081/repository/hello-release/") {  
           authentication(userName: "${userName}" , password: "admin123" )
       }
                         pom.version = "0.1.0"
